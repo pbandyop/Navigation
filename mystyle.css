@@ -1,0 +1,147 @@
+a:link {
+	color: black;
+  	text-decoration: none;
+}
+
+a:visited {
+   	color: purple;
+}
+
+a:active {
+   	color: red;
+}
+
+
+#leftCol {
+    	float: left;
+    	width: 80%;
+    	height: 300px;
+}
+#leftRow1 {
+    	float: left;
+    	font-size: 28px;
+    	font-style: normal;
+    	background-color: white;
+    	width: 100%;
+    	height: 50px;
+}
+#leftRow2 {
+    	float: left;
+    	font-size: 25px;
+    	color: black;
+    	font-weight: bold;
+    	font-style: oblique;
+    	background-color: white;
+    	width: 100%;
+    	height: 70px;
+}
+
+#leftRow4 {
+    	float:left;
+    	font-style: italic;
+    	font-weight: bold;
+    	color: green;
+    	background-color: white;
+    	width: 100%;
+    	height: 20px;
+}
+
+#leftRow5 {
+    	float:left;
+    	font-style: italic;
+    	font-weight: bold;
+    	color: blue;
+    	background-color: white;
+    	width: 100%;
+    	height: 20px;
+}
+
+
+#rightColContainer {
+	float: left;
+	width: 20%;
+}
+#rightCol1 {
+	display: none;
+	float:left;
+	width: 100%;
+	height: 130px;
+}
+
+
+#LongCol2 {
+	float:left;
+	background-color: white;
+	width: 100%;
+	height: 30px;
+}
+#LongCol3 {
+	float:left;
+	background-color: white;
+	width: 100%;
+	height: 30px;
+}
+#one{
+    	margin-top: 40px;   
+    	margin-below: 10px;    
+    	width:20%;
+    	min-height:1800px;
+    	overflow: hidden;
+    	border:2px solid;
+    	float:left;
+    	background-color:white;
+}
+
+
+#two {
+    	margin-top: 40px;
+    	margin-left: 15px;
+    	margin-below: 10px;
+    	width:50%;
+    	min-height:700px;
+    	overflow: hidden;
+    	font-weight: bold;
+    	font-size: 23px;
+    	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    	border:3px solid;
+    	float:left;
+    	background-color:white;
+
+}
+
+#three {
+    	margin-top: 40px;
+    	margin-left: 10px;
+    	margin-below: 10px;
+    	width:12%;
+    	min-height:1800px;
+    	overflow: hidden;
+    	border:2px solid;
+    	float:left;
+    	background-color:white;
+}
+
+#four {
+    	margin-top: 40px;
+    	margin-left: 10px; 
+    	margin-below: 10px;
+    	width:13%;
+    	min-height:320px;
+    	overflow: hidden;
+    	border:2px solid;
+    	float:left;
+    	background-color:white;
+}
+
+
+#one > span {
+    	display:block;
+}
+
+#one > span:hover
+      {
+        font-size: 20px;
+        font-weight: bold;
+        color:blue;
+        cursor: pointer;
+      }
